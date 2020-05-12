@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ca30ddfff9.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <img src="img.jpg" alt="bg" width="100%"  height="600em">
+    <form action="">
+        <h3>SIGN UP</h3> <hr>
+        <label for="username">Username</label>
+        <!-- using div to combine the icon and input -->
+        <div>
+            <i class="fas fa-user"></i>
+            <input type="text" id="username" maxlength="25" size="15" placeholder="Enter your Username" required>
+        </div>
+        <label for="email"> Email</label>
+        <div> 
+            <i class="far fa-envelope"></i>
+            <input type="email" id="email" placeholder="username@gmail.com" required size="25">
+        </div>
+       
+        <label for="password">Password</label>
+        <div>
+            <i class="fas fa-key"></i>
+            <input type="password" id="password" maxlength="25" size="20" placeholder="Enter your Password" required>
+        </div>
+        <label for="confirm-password">Confirm Password</label>
+        <div>
+            <i class="fas fa-key"></i>      
+            <input type="password" id="confirm-password" maxlength="25" size="20" placeholder="Confirm your Password" required>
+        </div>
+        <input type="checkbox" name="agree" id="agree" required>I agree with <p><a href="#">Terms and Conditions.</a></p>
+        
+        
+        <button type="submit">Sign Up</button>
+
+
+    </form>
+    
+
+</body>
+
+</html>
